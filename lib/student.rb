@@ -12,7 +12,7 @@ class Student
   sql = <<-SQL
   create table if not exists students (
     id integer primary key,
-    name text
+    name text,
     grade integer
   )
   SQL
